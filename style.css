@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background: rgb(11, 12, 31);
+  background: linear-gradient(
+    10deg,
+    rgba(11, 12, 31, 1) 0%,
+    rgba(39, 53, 130, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.project {
+  margin: auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin-top: 0.8rem;
+}
+
+.logo__link {
+  color: #b92e81;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.logo__link:hover {
+  color: whitesmoke;
+}
+
+.logo__image {
+  background-color: #b92e81;
+  border-radius: 30px;
+  width: 3rem;
+}
+
+.logo__image:hover {
+  /*background-color: #665ebe;**/
+  background-color: #428bca;
+}
+
+.logo__text {
+  margin-top: -2.5rem;
+  margin-left: 3.5rem;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  padding: 0.5rem;
+  font-weight: 500;
+}
+
+.menu__link {
+  text-decoration: none;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+.menu__link:hover {
+  color: #b92e81;
+}
+
+h1 {
+  text-align: center;
+}
+
+.project-presentation {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem 2rem 2rem;
+  border-bottom: solid 0.5px white;
+}
+
+.project-presentation__photo {
+  max-width: 10rem;
+  border-radius: 80px;
+  /*border: solid 3px #b92e81;*/
+  box-shadow: 3px 3px 12px 3px white;
+}
+
+.project-presentation__text {
+  padding-left: 1rem;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.links__page {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+  background-color: #b92e81;
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 2rem 0.8rem 2rem 0.8rem;
+  border-radius: 50px;
+}
+
+.links__page:hover {
+  background-color: #428bca;
+}
+
+.links__github img {
+  width: 6rem;
+  border-radius: 50px;
+  background: white;
+  padding: 0.1rem;
+}
+
+.links__github img:hover {
+  background: #428bca;
+}
