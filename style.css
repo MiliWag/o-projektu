@@ -126,8 +126,9 @@ h1 {
   background-color: #b92e81;
   text-decoration: none;
   margin-right: 1rem;
-  padding: 2rem 0.8rem 2rem 0.8rem;
+  padding: 1.8rem 0.6rem 1.8rem 0.6rem;
   border-radius: 50px;
+  border: solid 2px white;
 }
 
 .links__page:hover {
@@ -142,5 +143,5 @@ h1 {
 }
 
 .links__github img:hover {
-  background: #428bca;
+  background: #b92e81;
 }
