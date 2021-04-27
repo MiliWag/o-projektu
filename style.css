@@ -22,13 +22,14 @@ body {
 .project {
   margin: auto;
   padding: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Baloo Chettan 2', cursive;
   color: whitesmoke;
 }
 
 .navigation {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 2rem;
 }
 
 .logo {
@@ -57,8 +58,9 @@ body {
 }
 
 .logo__text {
-  margin-top: -2.5rem;
+  margin-top: -2.6rem;
   margin-left: 3.5rem;
+  font-weight: bold;
 }
 
 .menu {
@@ -90,20 +92,20 @@ h1 {
 .project-presentation {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 2rem;
-  padding: 1rem 2rem 2rem 2rem;
+  margin: 0rem 2rem 3rem 2rem;
+  padding: 1rem 0rem 3rem 0rem;
   border-bottom: solid 0.5px white;
 }
 
 .project-presentation__photo {
   max-width: 10rem;
+  max-height: 10rem;
   border-radius: 80px;
-  /*border: solid 3px #b92e81;*/
   box-shadow: 3px 3px 12px 3px white;
 }
 
 .project-presentation__text {
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 .project-links {
@@ -111,6 +113,11 @@ h1 {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 5rem;
+}
+
+.project-info {
+  margin-bottom: 3rem;
 }
 
 .links {
@@ -125,9 +132,10 @@ h1 {
   font-size: 1.2rem;
   background-color: #b92e81;
   text-decoration: none;
-  margin-right: 1rem;
-  padding: 1.8rem 0.6rem 1.8rem 0.6rem;
-  border-radius: 50px;
+  margin-right: 2rem;
+  padding: 2rem 2rem 1.4rem 2rem;
+  max-height: 6.5rem;
+  border-radius: 55px;
   border: solid 2px white;
 }
 
@@ -136,10 +144,10 @@ h1 {
 }
 
 .links__github img {
-  width: 6rem;
-  border-radius: 50px;
+  width: 6.5rem;
+  border-radius: 55px;
   background: white;
-  padding: 0.1rem;
+  padding: 0.2rem;
 }
 
 .links__github img:hover {
