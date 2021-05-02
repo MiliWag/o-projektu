@@ -115,18 +115,23 @@ h1 {
 }
 
 .project-presentation {
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  margin: 0rem 3rem 3rem 3rem;
-  padding: 1rem 0rem 3rem 0rem;
+
+  /*margin: 0rem 3rem 3rem 3rem;*/
+  padding: 0rem 3rem 3rem 3rem;
   border-bottom: solid 0.5px white;
 }
 
 .project-presentation__photo {
+  background-color: #b92e81;
   max-width: 10rem;
   max-height: 10rem;
   border-radius: 80px;
   box-shadow: 3px 3px 12px 3px white;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
 }
 
 .project-presentation__text {
@@ -139,6 +144,7 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 5rem;
+  margin-top: 2rem;
 }
 
 .project-info {
@@ -248,4 +254,61 @@ h1 {
   .menu li {
     border-bottom: none;
   }
+
+  .project-presentation {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 90%;
+  }
+
+  .project-presentation__photo {
+    margin-left: 0rem;
+  }
+}
+
+/* -------------------- styly pro milca.html ------------------------ */
+
+.bold {
+  font-weight: 500;
+  color: #b92e81;
+}
+
+.project-presentation__about-me {
+  list-style-type: none;
+  margin-top: 0;
+}
+
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.about-me_text {
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 2.5rem;
+}
+
+.milca-links {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.milca-links__item img {
+  width: 3.5rem;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 0.2rem;
+  background: white;
+}
+
+.milca-links__item img:hover {
+  background: #b92e81;
 }
