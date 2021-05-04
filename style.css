@@ -294,14 +294,16 @@ h1 {
   margin-left: 2.5rem;
 }
 
-.milca-links {
+.milca-links,
+.jindri-links {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.milca-links__item img {
+.milca-links__item img,
+.jindri-links__item img {
   width: 3.5rem;
   border-radius: 10px;
   margin: 1rem;
@@ -309,6 +311,7 @@ h1 {
   background: white;
 }
 
-.milca-links__item img:hover {
+.milca-links__item img:hover,
+.jindri-links__item img:hover {
   background: #b92e81;
 }
