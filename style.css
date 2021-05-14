@@ -294,7 +294,6 @@ h1 {
   font-size: 1.3rem;
   font-weight: 500;
   text-transform: uppercase;
-  margin-left: 2.5rem;
 }
 
 .milca-links,
@@ -303,6 +302,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-inline-start: 0px;
 }
 
 .milca-links__item img,
